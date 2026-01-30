@@ -1,0 +1,25 @@
+{
+  "Group": "ModJam",
+  "Name": "ModJamAssets",
+  "Version": "1.0.0",
+  "Description": "",
+  "Authors": [
+    {
+      "Name": "Astro Dwarf",
+      "Email": "",
+      "Url": ""
+    },
+    {
+      "Name": "Cxom",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
