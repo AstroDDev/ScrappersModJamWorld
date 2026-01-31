@@ -1,0 +1,13 @@
+{
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "WeakProjectileCondition"
+        }
+      ]
+    }
+  },
+  "Model": "Arrow_Crude",
+  "LaunchForce": 10
+}
