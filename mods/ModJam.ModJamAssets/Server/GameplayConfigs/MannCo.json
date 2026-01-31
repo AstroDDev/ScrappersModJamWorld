@@ -1,0 +1,50 @@
+{
+  "Parent": "Default",
+  "World": {
+    "AllowBlockBreaking": false,
+    "AllowBlockGathering": false,
+    "AllowBlockPlacement": false
+  },
+  "Death": {
+    "ItemsLossMode": "None",
+    "RespawnController": {
+      "Type": "WorldSpawnPoint"
+    }
+  },
+  "Combat": {
+    "DisableNPCIncomingDamage": true,
+    "DisablePlayerIncomingDamage": true
+  },
+  "Plugin": {
+    "MannCo": {
+      "PortalScrap": 100,
+      "RespawnScrap": 9,
+      "SpawnPoints": [
+        {
+          "Coordinates": {
+            "X": 12,
+            "Y": 84,
+            "Z": 12
+          }
+        },
+        {
+          "Coordinates": {
+            "X": -12,
+            "Z": -12,
+            "Y": 84
+          }
+        }
+      ],
+      "ReturnPortal": {
+        "Y": 84,
+        "X": 0,
+        "Z": 0
+      }
+    },
+    "Portal": {
+      "VoidEvent": {
+        "DurationSeconds": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "InstanceId": "MannCoWorld",
+  "Description": {
+    "DisplayName": "MannCo.portals.instance",
+    "FlavorText": "MannCo.portals.instance.desc",
+    "ThemeColor": "#9f1313",
+    "SplashImage": "DefaultArtwork.png",
+    "Tips": [
+      "MannCo.portals.instance.tip1",
+      "MannCo.portals.instance.tip2"
+    ],
+    "Objectives": [
+      "MannCo.portals.instance.objective1"
+    ]
+  },
+  "PlayerSpawn": {
+    "Y": 100,
+    "Center": {
+      "X": 0,
+      "Z": 0,
+      "Y": 84
+    },
+    "Yaw": 90,
+    "ScanHeight": 0
+  },
+  "GameplayConfig": "MannCo"
+}
