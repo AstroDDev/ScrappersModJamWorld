@@ -1,0 +1,44 @@
+{
+  "Model": "Characters/Mech/Robots/Torpedo.blockymodel",
+  "Texture": "Characters/Mech/Robots/Torpedo_Tex.png",
+  "MinScale": 1,
+  "MaxScale": 1,
+  "HitBox": {
+    "Min": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Max": {
+      "Z": 1,
+      "Y": 1,
+      "X": 1
+    }
+  },
+  "PhysicsValues": {
+    "Mass": 0.001
+  },
+  "EyeHeight": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Characters/Mech/Animations/Torpedo_Idle.blockyanim",
+          "Looping": true,
+          "Speed": 1,
+          "BlendingDuration": 0
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "Characters/Mech/Animations/Torpedo_Idle.blockyanim",
+          "Speed": 1,
+          "BlendingDuration": 0,
+          "Looping": true
+        }
+      ]
+    }
+  }
+}
