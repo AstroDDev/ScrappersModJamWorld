@@ -1,0 +1,33 @@
+{
+  "Model": "Items/RustyGear.blockymodel",
+  "Texture": "Items/RustyGear.png",
+  "Scale": 1.5,
+  "Light": {
+    "Color": "#843",
+    "Radius": 5
+  },
+  "Icon": "Icons/ItemsGenerated/RustryGear.png",
+  "IconProperties": {
+    "Scale": 1.4,
+    "Rotation": [
+      61,
+      59,
+      16
+    ],
+    "Translation": [
+      -1,
+      -1
+    ]
+  },
+  "Quality": "Uncommon",
+  "Interactions": {
+    "Collision": {
+      "Interactions": [
+        {
+          "Type": "SendMessage",
+          "Message": "Aled"
+        }
+      ]
+    }
+  }
+}

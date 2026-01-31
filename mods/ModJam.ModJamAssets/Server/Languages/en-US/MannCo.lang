@@ -1,0 +1,9 @@
+portals.instance=Ancient Factory
+portals.instance.subtitle=""
+portals.instance.desc=Once the powerhouse of an advanced civilizatio, now a silent place barren of life. Who know what loot hide in it!
+portals.instance.tip3=<color is="#05c09a">Coming here was a mistake.</color>
+portals.instance.objective1=Collect enough Scraps from ennemies \nto activate the return portal
+portals.instance.tip1=<color is="#c74815">Dying cost you scraps</color>
+portals.instance.tip2=<color is="#9f1313">Being out of scrap to respawn fail the instance</color>
+items.MannCoKey.name=Fragment: Ancient Factory
+items.MannCoKey.desc=<msg key="server.items.PortalKey.description"/>\n\n<i>Some Fragments are known to lead straight to the heart of enemy encampments. Only the most prepared may survive.</i>\n\nAdded by YUNG's HyDunge

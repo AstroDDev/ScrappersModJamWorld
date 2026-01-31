@@ -1,0 +1,62 @@
+{
+  "GameMode": "Adventure",
+  "RequiredPlugins": {},
+  "SpawnProvider": {
+    "Id": "Global",
+    "SpawnPoint": {
+      "X": 0,
+      "Y": 84,
+      "Z": 0,
+      "Pitch": 0.0,
+      "Yaw": 90.0,
+      "Roll": 0.0
+    }
+  },
+  "WorldGen": {
+    "Type": "Hytale",
+    "Name": "MannCoWorld"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "IsPvpEnabled": false,
+  "IsSpawningNPC": false,
+  "IsSpawnMarkersEnabled": true,
+  "IsGameTimePaused": true,
+  "GameTime": "0001-01-01T08:00:00.090953998Z",
+  "ClientEffects": {
+    "SunAngleDegrees": 130,
+    "SunHeightPercent": 33
+  },
+  "UUID": {
+    "$binary": "x1hEYRHeT1GDR3SDxvmzJQ==",
+    "$type": "04"
+  },
+  "Disabled_GameplayConfig": "MannCo",
+  "DeleteOnRemove": true,
+  "IsCompassUpdating": false,
+  "IsTicking": false,
+  "Seed": 0,
+  "IsObjectiveMarkersEnabled": false,
+  "IsAllNPCFrozen": false,
+  "IsSavingPlayers": true,
+  "Version": 4,
+  "Plugin": {
+    "Instance": {
+      "Discovery": {
+        "TitleKey": "MannCo.portals.instance",
+        "SubtitleKey": "MannCo.portals.instance.subtitle",
+        "Display": true,
+        "AlwaysDisplay": true,
+        "Major": true,
+        "Icon": "Forgotten_Temple.png"
+      },
+      "RemovalConditions": [
+        {
+          "Type": "WorldEmpty",
+          "TimeoutSeconds": 10
+        }
+      ]
+    }
+  }
+}
