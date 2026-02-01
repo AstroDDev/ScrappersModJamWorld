@@ -1,0 +1,9 @@
+{
+  "ApplicationEffects": {
+    "MovementEffects": {
+      "DisableAll": true
+    },
+    "EntityAnimationId": "LaunchTorp"
+  },
+  "OverlapBehavior": "Extend"
+}

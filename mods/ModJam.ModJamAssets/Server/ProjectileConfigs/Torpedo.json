@@ -1,0 +1,31 @@
+{
+  "Model": "Torpedo",
+  "LaunchForce": 40,
+  "Interactions": {
+    "ProjectileHit": {
+      "Interactions": [
+        {
+          "Type": "WeakProjectileCondition",
+          "Next": {
+            "Type": "SendMessage",
+            "Message": "Torp Hit"
+          }
+        }
+      ]
+    }
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 25,
+    "TerminalVelocityAir": 35,
+    "TerminalVelocityWater": 15,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0.0,
+    "SticksVertically": false,
+    "AllowRolling": true
+  },
+  "SpawnRotationOffset": {
+    "Yaw": 0,
+    "Pitch": 70
+  }
+}

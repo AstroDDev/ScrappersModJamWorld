@@ -1,0 +1,17 @@
+{
+  "Type": "ApplyEffect",
+  "EffectId": "TorpBot_FireTorpAnim",
+  "Next": {
+    "Type": "Simple",
+    "RunTime": 2.25,
+    "Next": {
+      "Type": "Projectile",
+      "Config": "Torpedo",
+      "Next": {
+        "Type": "ClearEntityEffect",
+        "EntityEffectId": "TorpBot_FireTorpAnim"
+      }
+    }
+  },
+  "Entity": "User"
+}
