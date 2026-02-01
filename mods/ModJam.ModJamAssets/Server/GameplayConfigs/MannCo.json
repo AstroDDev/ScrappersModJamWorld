@@ -12,8 +12,8 @@
     }
   },
   "Combat": {
-    "DisableNPCIncomingDamage": true,
-    "DisablePlayerIncomingDamage": true
+    "DisableNPCIncomingDamage": false,
+    "DisablePlayerIncomingDamage": false
   },
   "Plugin": {
     "MannCo": {
@@ -47,8 +47,8 @@
         "ArmorBot",
         "TorpedoBot"
       ],
-      "WaveLength": 10000,
-      "WaveIntermissionLength": 5000
+      "WaveLength": 20000,
+      "WaveIntermissionLength": 10000
     },
     "Portal": {
       "VoidEvent": {
