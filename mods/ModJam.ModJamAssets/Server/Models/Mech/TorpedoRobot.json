@@ -862,7 +862,8 @@
     "Sleep": {
       "Animations": [
         {
-          "Animation": "Characters/Animations/Flavor/Sleep.blockyanim"
+          "Animation": "Characters/Mech/Animations/TorpBot_FireTorp.blockyanim",
+          "Looping": false
         }
       ]
     },
@@ -1269,6 +1270,16 @@
         {
           "Animation": "Characters/Animations/Mount/Mount_Sprint.blockyanim",
           "Looping": true
+        }
+      ]
+    },
+    "LaunchTorp": {
+      "Animations": [
+        {
+          "Animation": "Characters/Mech/Animations/TorpBot_FireTorp.blockyanim",
+          "Speed": 1,
+          "BlendingDuration": 0.2,
+          "Looping": false
         }
       ]
     }

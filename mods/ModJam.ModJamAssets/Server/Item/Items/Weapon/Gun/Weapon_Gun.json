@@ -34,7 +34,7 @@
       "Interactions": [
         {
           "Type": "Projectile",
-          "Config": "TestProjectile"
+          "Config": "Torpedo"
         }
       ]
     }
