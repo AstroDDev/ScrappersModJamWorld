@@ -47,7 +47,8 @@
         "ArmorBot",
         "Trork_Hunter"
       ],
-      "WaveLength": 10000
+      "WaveLength": 10000,
+      "WaveIntermissionLength": 5000
     },
     "Portal": {
       "VoidEvent": {
