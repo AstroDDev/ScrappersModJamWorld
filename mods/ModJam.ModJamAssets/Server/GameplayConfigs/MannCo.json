@@ -8,8 +8,10 @@
   "Death": {
     "ItemsLossMode": "None",
     "RespawnController": {
-      "Type": "WorldSpawnPoint"
-    }
+      "Type": "MannCoGameRespawn"
+    },
+    "ItemsAmountLossPercentage": 0,
+    "ItemsDurabilityLossPercentage": 0
   },
   "Combat": {
     "DisableNPCIncomingDamage": false,
