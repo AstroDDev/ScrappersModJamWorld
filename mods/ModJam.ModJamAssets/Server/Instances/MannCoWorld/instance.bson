@@ -32,7 +32,7 @@
     "$binary": "x1hEYRHeT1GDR3SDxvmzJQ==",
     "$type": "04"
   },
-  "Disabled_GameplayConfig": "MannCo",
+  "GameplayConfig": "MannCo",
   "DeleteOnRemove": true,
   "IsCompassUpdating": false,
   "IsTicking": false,

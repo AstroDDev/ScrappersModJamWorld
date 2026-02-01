@@ -1,12 +1,12 @@
 {
   "Model": "Characters/Mech/Robots/Torpedo_Bot.blockymodel",
   "Texture": "Characters/Mech/Robots/Torpedo_Bot_Tex.png",
-  "EyeHeight": 1.6,
+  "EyeHeight": 1.8,
   "CrouchOffset": -0.4,
   "HitBox": {
     "Max": {
       "X": 0.325,
-      "Y": 1.85,
+      "Y": 1.9,
       "Z": 0.325
     },
     "Min": {
@@ -18,14 +18,14 @@
   "MinScale": 1,
   "MaxScale": 1,
   "PhysicsValues": {
-    "Mass": 68
+    "Mass": 60
   },
   "DetailBoxes": {
     "Head": [
       {
         "Offset": {
           "X": 0,
-          "Y": 1.6,
+          "Y": 1.9,
           "Z": 0
         },
         "Box": {
@@ -51,14 +51,14 @@
         },
         "Box": {
           "Max": {
-            "X": 0.3,
-            "Y": 1.35,
-            "Z": 0.3
+            "X": 0.325,
+            "Y": 1.5,
+            "Z": 0.325
           },
           "Min": {
-            "X": -0.3,
+            "X": -0.325,
             "Y": 0,
-            "Z": -0.3
+            "Z": -0.325
           }
         }
       }

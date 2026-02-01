@@ -41,12 +41,10 @@
         "Z": 0
       },
       "WeakEnemies": [
-        "Zombie",
-        "Skeleton",
-        "Spider"
+        "GenericBot"
       ],
       "StrongEnemies": [
-        "Trork_Brawler",
+        "ArmorBot",
         "Trork_Hunter"
       ],
       "WaveLength": 10000
