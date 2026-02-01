@@ -7,14 +7,15 @@
     "Weapons": [],
     "Attack": "Skeleton_Archer_Bow_Shoot",
     "CombatBackOffAfterAttack": false,
-    "AttackDistance": 65,
-    "CombatFleeIfTooCloseDistance": 20,
+    "AttackDistance": 50,
+    "CombatFleeIfTooCloseDistance": 15,
     "DesiredAttackDistanceRange": [
-      10,
-      64
+      16,
+      49
     ],
     "CombatBehaviorDistance": 50,
-    "TargetRange": 32,
+    "TargetRange": 50,
+    "LeashMinPlayerDistance": 18,
     "NighttimeOffhandSlot": -1,
     "WakingPeriod": [
       0,
@@ -26,8 +27,8 @@
       "Robot"
     ],
     "AbsoluteDetectionRange": 500,
-    "AlertedRange": 500,
-    "WanderRadius": 60,
+
+    "WanderRadius": 5,
     "ChanceToBeAlertedWhenReceivingCallForHelp": 100,
     "AlertedTime": [
       0,
