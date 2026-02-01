@@ -12,8 +12,8 @@
     }
   },
   "Combat": {
-    "DisableNPCIncomingDamage": true,
-    "DisablePlayerIncomingDamage": true
+    "DisableNPCIncomingDamage": false,
+    "DisablePlayerIncomingDamage": false
   },
   "Plugin": {
     "MannCo": {
@@ -41,15 +41,14 @@
         "Z": 0
       },
       "WeakEnemies": [
-        "Zombie",
-        "Skeleton",
-        "Spider"
+        "GenericBot"
       ],
       "StrongEnemies": [
-        "Trork_Brawler",
-        "Trork_Hunter"
+        "ArmorBot",
+        "TorpedoBot"
       ],
-      "WaveLength": 10000
+      "WaveLength": 20000,
+      "WaveIntermissionLength": 10000
     },
     "Portal": {
       "VoidEvent": {

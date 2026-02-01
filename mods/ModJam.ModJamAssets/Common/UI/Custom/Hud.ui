@@ -1,0 +1,14 @@
+Group #BannerArea {
+    Anchor: (Top: 200);
+    LayoutMode: Top;
+
+    Label #BannerTitle {
+        Text: "test";
+        Style: (
+            FontSize: 30,
+            TextColor: #ff7474,
+            RenderBold: true,
+            HorizontalAlignment: Center
+        );
+    }
+}

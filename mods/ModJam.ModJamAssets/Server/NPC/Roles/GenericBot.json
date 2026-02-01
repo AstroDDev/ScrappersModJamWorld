@@ -1,0 +1,54 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Modify": {
+    "Appearance": "GenericRobot",
+    "DropList": "",
+    "Weapons": [],
+    "Attack": "Root_NPC_Skeleton_Burnt_Praetorian_Attack",
+    "NighttimeOffhandSlot": -1,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "LeashDistance": 500,
+    "HardLeashDistance": 600,
+    "CombatMessageTargetGroups": [
+      "Robot"
+    ],
+    "DesiredAttackDistanceRange": [
+      1,
+      1
+    ],
+    "CombatAlwaysMovingWeight": 10,
+    "CombatDirectWeight": 10,
+    "CombatStrafeWeight": 0,
+    "AbsoluteDetectionRange": 500,
+    "AlertedRange": 500,
+    "WanderRadius": 60,
+    "ChanceToBeAlertedWhenReceivingCallForHelp": 100,
+    "AlertedTime": [
+      0,
+      0
+    ],
+    "ChaseRelativeSpeed": 1,
+    "ViewSector": 360,
+    "CombatMovingRelativeSpeed": 1,
+    "HearingRange": 0.1,
+    "SearchTimeRange": [
+      0,
+      0
+    ],
+    "CombatRelativeTurnSpeed": 1,
+    "AttackDistance": 3.5,
+    "DisableDamageGroups": [
+      "Self",
+      "Robot"
+    ],
+    "MaxSpeed": 10,
+    "MaxHealth": 124,
+    "IsMemory": true,
+    "MemoriesCategory": "Robot",
+    "NameTranslationKey": "server.npcRoles.Outlander_Brute.name"
+  }
+}
