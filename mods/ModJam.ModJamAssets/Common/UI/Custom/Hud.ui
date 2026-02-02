@@ -47,7 +47,7 @@ Group #BannerArea {
     LayoutMode: Top;
 
     Label #BannerTitle {
-        Text: "test";
+        Text: "";
         Style: (
             FontSize: 30,
             TextColor: #ff7474,
