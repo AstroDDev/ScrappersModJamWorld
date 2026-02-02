@@ -1,3 +1,24 @@
+Group {
+  LayoutMode: Right;
+  Anchor: (Top: 20, Height: 60);
+
+  Group #TimeLeft {
+    Background: "ContainerFullPatch.png";
+    Anchor: (Right: 20);
+    Padding: (Horizontal: 20, Vertical: 10);
+    LayoutMode: Left;
+
+    Group {
+      Background: "RustyGear.png";
+      Anchor: (Width: 40, Height: 40, Right: 10);
+    }
+
+    Label #GearLabel {
+      Style: (FontSize: 30, Alignment: Center);
+      Text: "0/0";
+    }
+  }
+}
 Group #BannerArea {
     Anchor: (Top: 200);
     LayoutMode: Top;
