@@ -1,0 +1,55 @@
+{
+  "PlayerAnimationsId": "Block",
+  "Icon": "Icons/ItemsGenerated/DepositMachine.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      22.5,
+      49,
+      22.5
+    ],
+    "Translation": [
+      -7,
+      -35
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Items/Blocks/Deposit_Station.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/Depot_Station_Tex.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "HitboxType": "DepositMachineHitbox",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "ParticleColor": "#3a2014",
+    "Interactions": {
+      "Use": "DepositScrap"
+    },
+    "InteractionHitboxType": "DepositMachineHitbox",
+    "InteractionHint": "MannCo.items.blocks.DepositMachine.interactionhint"
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Stone"
+}
