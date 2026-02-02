@@ -2,6 +2,25 @@
   "Model": "Bullet_Blunderbuss",
   "LaunchForce": 100,
   "Interactions": {
+    "ProjectileSpawn": {
+      "Interactions": [
+        {
+          "Type": "Simple",
+          "Next": {
+            "Type": "RemoveEntity"
+          },
+          "RunTime": 2,
+          "Effects": {
+            "WorldSoundEventId": "SFX_Rifle_Fire",
+            "Particles": [
+              {
+                "SystemId": "RifleShooting"
+              }
+            ]
+          }
+        }
+      ]
+    },
     "ProjectileHit": {
       "Interactions": [
         {
@@ -12,22 +31,14 @@
               "BaseDamage": {
                 "Projectile": 10
               }
-            },
-            "Next": {
-              "Type": "RemoveEntity"
-            },
-            "Failed": {
-              "Type": "RemoveEntity"
             }
           },
+          "Effects": {}
+        },
+        {
+          "Type": "RemoveEntity",
           "Effects": {
-            "LocalSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
-          },
-          "Failed": {
-            "Type": "RemoveEntity",
-            "Effects": {
-              "WorldSoundEventId": "SFX_GunPvp_Assault_Rifle_Bullet_NoDamage"
-            }
+            "WorldSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
           }
         }
       ],
@@ -37,20 +48,20 @@
         ]
       }
     },
-    "ProjectileSpawn": {
+    "ProjectileMiss": {
       "Interactions": [
         {
-          "Type": "Simple",
+          "Type": "RemoveEntity",
           "Effects": {
-            "LocalSoundEventId": "SFX_Rifle_Fire_Local",
-            "WorldSoundEventId": "SFX_Rifle_Fire"
-          },
-          "RunTime": 2,
-          "Next": {
-            "Type": "RemoveEntity"
+            "WorldSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
           }
         }
-      ]
+      ],
+      "Rules": {
+        "Interrupting": [
+          "ProjectileSpawn"
+        ]
+      }
     },
     "ProjectileBounce": {
       "Interactions": [
@@ -60,17 +71,21 @@
             "WorldSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
           }
         }
-      ]
-    },
-    "ProjectileMiss": {
-      "Interactions": [
-        {
-          "Type": "RemoveEntity",
-          "Effects": {
-            "WorldSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
-          }
-        }
-      ]
+      ],
+      "Rules": {
+        "Interrupting": [
+          "ProjectileSpawn"
+        ]
+      }
     }
+  },
+  "Physics": {
+    "Type": "Standard",
+    "Gravity": 15,
+    "TerminalVelocityAir": 50,
+    "TerminalVelocityWater": 15,
+    "RotationMode": "VelocityDamped",
+    "Bounciness": 0,
+    "SticksVertically": true
   }
 }
