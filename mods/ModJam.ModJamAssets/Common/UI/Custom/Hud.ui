@@ -2,10 +2,18 @@ Group {
   LayoutMode: Right;
   Anchor: (Top: 20, Height: 60);
   Group  {
-    Anchor: (Right: 20,Top:10,Height: 150);
+    Anchor: (Right: 20,Top:10,Height: 220);
     Background: "ContainerFullPatch.png";
-    Padding: (Horizontal: 30, Vertical: 10);
+    Padding: (Horizontal: 40, Vertical: 10);
     LayoutMode: Top;
+    Group {
+    Padding: (Vertical: 15);
+        LayoutMode: Left;
+        Label #DifficultyLabel {
+              Style: (FontSize: 20, Alignment: Center);
+              Text: "Difficulty: 1";
+        }
+    }
     Group {
       LayoutMode: Left;
 
@@ -21,7 +29,7 @@ Group {
 
     }
     Group {
-        LayoutMode: Right;
+        LayoutMode: Left;
         Label #WaveLabel {
             Style: (FontSize: 30, Alignment: Center);
             Text: "";
