@@ -21,13 +21,13 @@
       0,
       24
     ],
-    "LeashDistance": 500,
-    "HardLeashDistance": 600,
+    "LeashDistance": 100,
+    "HardLeashDistance": 150,
     "CombatMessageTargetGroups": [
       "Robot"
     ],
-    "AbsoluteDetectionRange": 500,
-    "WanderRadius": 5,
+    "AbsoluteDetectionRange": 60,
+    "WanderRadius": 10,
     "ChanceToBeAlertedWhenReceivingCallForHelp": 100,
     "AlertedTime": [
       0,
