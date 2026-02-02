@@ -3,15 +3,24 @@
   "EffectId": "TorpBot_FireTorpAnim",
   "Next": {
     "Type": "Simple",
-    "RunTime": 2.25,
+    "RunTime": 1,
     "Next": {
       "Type": "Projectile",
       "Config": "Torpedo",
       "Next": {
-        "Type": "ClearEntityEffect",
-        "EntityEffectId": "TorpBot_FireTorpAnim"
-      }
-    }
+        "Type": "Simple",
+        "RunTime": 1,
+        "Next": {
+          "Type": "ClearEntityEffect",
+          "EntityEffectId": "TorpBot_FireTorpAnim",
+          "HorizontalSpeedMultiplier": 0
+        },
+        "HorizontalSpeedMultiplier": 0
+      },
+      "HorizontalSpeedMultiplier": 0
+    },
+    "HorizontalSpeedMultiplier": 0
   },
-  "Entity": "User"
+  "Entity": "User",
+  "HorizontalSpeedMultiplier": 0
 }

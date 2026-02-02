@@ -1,7 +1,14 @@
 {
   "ApplicationEffects": {
     "MovementEffects": {
-      "DisableAll": true
+      "DisableAll": true,
+      "DisableForward": true,
+      "DisableBackward": true,
+      "DisableLeft": true,
+      "DisableRight": true,
+      "DisableSprint": true,
+      "DisableJump": true,
+      "DisableCrouch": true
     },
     "EntityAnimationId": "LaunchTorp"
   },

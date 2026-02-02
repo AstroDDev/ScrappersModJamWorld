@@ -5,11 +5,39 @@
     "ProjectileHit": {
       "Interactions": [
         {
-          "Type": "WeakProjectileCondition",
-          "Next": {
-            "Type": "SendMessage",
-            "Message": "Torp Hit"
-          }
+          "Type": "Serial",
+          "Interactions": [
+            "Bomb_Explode",
+            {
+              "Type": "RemoveEntity"
+            }
+          ]
+        }
+      ]
+    },
+    "ProjectileMiss": {
+      "Interactions": [
+        {
+          "Type": "Serial",
+          "Interactions": [
+            "Bomb_Explode",
+            {
+              "Type": "RemoveEntity"
+            }
+          ]
+        }
+      ]
+    },
+    "ProjectileBounce": {
+      "Interactions": [
+        {
+          "Type": "Serial",
+          "Interactions": [
+            "Bomb_Explode",
+            {
+              "Type": "RemoveEntity"
+            }
+          ]
         }
       ]
     }
@@ -20,12 +48,16 @@
     "TerminalVelocityAir": 35,
     "TerminalVelocityWater": 15,
     "RotationMode": "VelocityDamped",
-    "Bounciness": 0.0,
-    "SticksVertically": false,
+    "Bounciness": 1,
+    "SticksVertically": true,
     "AllowRolling": true
   },
   "SpawnRotationOffset": {
     "Yaw": 0,
     "Pitch": 70
+  },
+  "SpawnOffset": {
+    "Y": -0.5,
+    "Z": 1.25
   }
 }
