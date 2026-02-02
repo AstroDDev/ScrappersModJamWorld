@@ -54,7 +54,12 @@
     },
     "Portal": {
       "VoidEvent": {
-        "DurationSeconds": 0
+        "DurationSeconds": 0,
+        "Stages": [
+          {
+            "SecondsInto": 0
+          }
+        ]
       }
     }
   }
