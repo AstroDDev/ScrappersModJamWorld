@@ -2,7 +2,7 @@ Group {
   LayoutMode: Right;
   Anchor: (Top: 20, Height: 60);
   Group  {
-    Anchor: (Right: 20,Top:10,Height: 100);
+    Anchor: (Right: 20,Top:10,Height: 150);
     Background: "ContainerFullPatch.png";
     Padding: (Horizontal: 30, Vertical: 10);
     LayoutMode: Top;
@@ -27,6 +27,17 @@ Group {
             Text: "";
         }
 
+    }
+    Group {
+     LayoutMode: Left;
+        Group {
+          Background: "Timer.png";
+          Anchor: (Width: 40, Height: 40, Right: 10);
+        }
+        Label #TimerLabel {
+              Style: (FontSize: 32, Alignment: Center);
+              Text: "10";
+            }
     }
   }
 
