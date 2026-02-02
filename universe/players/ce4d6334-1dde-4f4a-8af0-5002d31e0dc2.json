@@ -3,12 +3,28 @@
     "Nameplate": {
       "Text": "AstroDwarf"
     },
-    "EffectController": {},
+    "EffectController": {
+      "ActiveEntityEffects": [
+        {
+          "EntityEffectId": "HealthRegen_Buff_T1",
+          "InitialDuration": 45.0,
+          "RemainingDuration": 1.565789818763733,
+          "SinceLastDamage": 1.434652328491211,
+          "HasBeenDamaged": false,
+          "SequentialHits": {
+            "Hits": 0
+          },
+          "Infinite": false,
+          "Debuff": false,
+          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
+          "Invulnerable": false
+        }
+      ]
+    },
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
     },
-    "RespondToHit": {},
     "DisplayName": {
       "DisplayName": {
         "RawText": "AstroDwarf",
@@ -21,13 +37,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": -20.974477767944336,
-        "Y": 80.0,
-        "Z": 3.924785614013672
+        "X": -15.637186050415039,
+        "Y": 81.31334686279297,
+        "Z": 3.679128646850586
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 3.0277295112609863,
+        "Yaw": -7.688521862030029,
         "Roll": 0.0
       }
     },
@@ -52,29 +68,7 @@
         "Storage": {
           "Id": "Simple",
           "Capacity": 36,
-          "Items": {
-            "29": {
-              "Id": "Rock_Volcanic_Cracked_Lava",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "28": {
-              "Id": "EditorTool_Selection",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "27": {
-              "Id": "MannCoBarrierBlock",
-              "Quantity": 100,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            }
-          }
+          "Items": {}
         },
         "Armor": {
           "Id": "Simple",
@@ -84,7 +78,15 @@
         "HotBar": {
           "Id": "Simple",
           "Capacity": 9,
-          "Items": {}
+          "Items": {
+            "0": {
+              "Id": "MannCoRifle",
+              "Quantity": 1,
+              "Durability": 0.0,
+              "MaxDurability": 0.0,
+              "OverrideDroppedItemAnimation": false
+            }
+          }
         },
         "Utility": {
           "Id": "Simple",
@@ -94,7 +96,7 @@
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 3,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -154,11 +156,11 @@
         "PerWorldData": {
           "MannCoBuildingWorld": {
             "LastPosition": {
-              "X": -20.974477767944336,
-              "Y": 80.0,
-              "Z": 3.924785614013672,
-              "Pitch": -0.21428218483924866,
-              "Yaw": -2.4707183837890625,
+              "X": -15.637186050415039,
+              "Y": 81.31334686279297,
+              "Z": 3.679128646850586,
+              "Pitch": 0.0,
+              "Yaw": -7.688521862030029,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -169,33 +171,94 @@
           },
           "default": {
             "LastPosition": {
-              "X": 0.5,
+              "X": 6.52126932144165,
               "Y": 80.0,
-              "Z": 0.5,
-              "Pitch": -0.5404012203216553,
-              "Yaw": 1.7303974628448486,
+              "Z": 4.407428741455078,
+              "Pitch": -0.2987511456012726,
+              "Yaw": 1.702848196029663,
               "Roll": 0.0
             },
             "LastMovementStates": {
-              "Flying": true
+              "Flying": false
             },
             "FirstSpawn": false,
             "DeathPositions": []
           },
           "MannCoWorld": {
             "LastPosition": {
-              "X": 22.80774688720703,
-              "Y": 90.3121566772461,
-              "Z": 28.655778884887695,
-              "Pitch": -0.7573075890541077,
-              "Yaw": -3.0345659255981445,
+              "X": -15.637186050415039,
+              "Y": 81.31334686279297,
+              "Z": 3.679128646850586,
+              "Pitch": 0.034999508410692215,
+              "Yaw": -1.3380666971206665,
               "Roll": 0.0
             },
             "LastMovementStates": {
-              "Flying": true
+              "Flying": false
             },
             "FirstSpawn": false,
-            "DeathPositions": []
+            "DeathPositions": [
+              {
+                "MarkerId": "death-marker-55cb3438-39e0-41e7-8407-efe6dff70a66",
+                "Transform": {
+                  "X": -15.432692527770996,
+                  "Y": 80.0,
+                  "Z": 36.74964141845703,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 0
+              },
+              {
+                "MarkerId": "death-marker-e599de06-e6c1-42ac-82cc-22f350a76e62",
+                "Transform": {
+                  "X": 20.748350143432617,
+                  "Y": 80.0,
+                  "Z": 6.185605049133301,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 0
+              },
+              {
+                "MarkerId": "death-marker-39096a23-a6be-451a-acd5-81ed27e98492",
+                "Transform": {
+                  "X": -5.389476299285889,
+                  "Y": 80.0,
+                  "Z": 36.75346374511719,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 0
+              },
+              {
+                "MarkerId": "death-marker-3c16835c-444c-4196-9527-0e5d83bac946",
+                "Transform": {
+                  "X": 24.266450881958008,
+                  "Y": 80.0,
+                  "Z": 4.079988956451416,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 0
+              },
+              {
+                "MarkerId": "death-marker-e7282098-7672-48d8-9560-6c394dc4ede6",
+                "Transform": {
+                  "X": -5.995882511138916,
+                  "Y": 80.0,
+                  "Z": 19.234386444091797,
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "Day": 0
+              }
+            ]
           },
           "instance-Default_Flat-aa4a1b13-c3a8-4c4f-96fa-7e022ca987ed": {
             "LastPosition": {
@@ -231,15 +294,31 @@
         "DiscoveredZones": [],
         "DiscoveredInstances": [
           {
-            "$binary": "kbGUBuLcTU+9eHOX7lYNmQ==",
-            "$type": "04"
-          },
-          {
             "$binary": "TQgqE5WfT5W72Q/4g7McQw==",
             "$type": "04"
           },
           {
+            "$binary": "0nI7/t6PR/6KWflr7fqSwQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "kbGUBuLcTU+9eHOX7lYNmQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "QkPjNKRFTDScwu/8MYeLig==",
+            "$type": "04"
+          },
+          {
+            "$binary": "YK4JUYOvRI6R63lf8IbsWg==",
+            "$type": "04"
+          },
+          {
             "$binary": "JPB3gJjmSt6t6EMZzjXpCg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "A+xmMf0dTlienaEK3eYq/g==",
             "$type": "04"
           },
           {
@@ -248,6 +327,14 @@
           },
           {
             "$binary": "Q+x1x2VmQs6MImR5755FHA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "hLBH2StQQ9CSkByvtWhZkg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "qHcrbv7KT6ae1X38JkYExw==",
             "$type": "04"
           }
         ],
@@ -260,7 +347,15 @@
           {
             "Id": "Simple",
             "Capacity": 9,
-            "Items": {}
+            "Items": {
+              "0": {
+                "Id": "MannCoRifle",
+                "Quantity": 1,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
           },
           null,
           null,
@@ -274,9 +369,8 @@
         ],
         "CurrentHotbar": 0
       },
-      "GameMode": "Creative"
+      "GameMode": "Adventure"
     },
-    "Invulnerable": {},
     "HitboxCollision": {
       "HitboxCollisionConfigIndex": 1
     },
@@ -319,7 +413,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0
+          "Value": 30.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -365,8 +459,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.21428218483924866,
-        "Yaw": -2.4707183837890625,
+        "Pitch": 0.0,
+        "Yaw": -7.688521862030029,
         "Roll": 0.0
       }
     }

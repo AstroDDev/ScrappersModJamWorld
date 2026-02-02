@@ -46,7 +46,7 @@
       "Robot"
     ],
     "MaxSpeed": 7,
-    "MaxRotationSpeed": 60,
+    "MaxRotationSpeed": 50,
     "MaxHealth": 50,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
