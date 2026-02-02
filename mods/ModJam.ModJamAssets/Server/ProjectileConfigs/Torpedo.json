@@ -7,7 +7,7 @@
         {
           "Type": "Serial",
           "Interactions": [
-            "Bomb_Explode",
+            "Torpedo_Explode",
             {
               "Type": "RemoveEntity"
             }
@@ -20,7 +20,7 @@
         {
           "Type": "Serial",
           "Interactions": [
-            "Bomb_Explode",
+            "Torpedo_Explode",
             {
               "Type": "RemoveEntity"
             }
@@ -33,7 +33,7 @@
         {
           "Type": "Serial",
           "Interactions": [
-            "Bomb_Explode",
+            "Torpedo_Explode",
             {
               "Type": "RemoveEntity"
             }

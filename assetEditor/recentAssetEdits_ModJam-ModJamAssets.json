@@ -1,0 +1,249 @@
+{
+  "Assets": [
+    {
+      "Path": "Server\\Item\\Items\\DepositMachine.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T02:50:44.590285200Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\ProjectileConfigs\\TestProjectile.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-01-31T22:08:17.939508400Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\NPC\\Roles\\TorpedoBot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T16:35:27.576717200Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Models\\Mech\\Torpedo.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T23:37:25.994777300Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Animations\\Robot_Launch.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-02-01T21:40:15.995315500Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon\\Gun\\MannCoRifle.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T16:06:12.136706300Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Models\\Beast\\Cactee.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-01-30T15:20:05.731053500Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Audio\\SoundEvents\\SFX_GunPvp_Assault_Rifle_Bullet_NoDamage.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T17:45:39.737311Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\NPC\\Roles\\ArmorBot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T16:31:40.569269300Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\GameplayConfigs\\MannCo.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T20:03:36.716195800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Items\\RustyGear.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T03:14:10.576649800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\RootInteractions\\DepositScrap.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T02:42:28.863070Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Models\\Mech\\GenericRobot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-01-31T15:41:32.293958800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\RootInteractions\\NPCs\\Robot\\Torp_Bot_Torp_Shoot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T21:45:42.826944200Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Models\\Mech\\Tank_Base.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-01-31T21:04:55.525148900Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\NPC\\Groups\\Robot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-01-31T22:22:44.221890700Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\PortalTypes\\MannCoPortal.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T03:25:33.821944600Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Block\\Hitboxes\\DepositMachineHitbox.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T02:16:50.995630600Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Weapon\\Gun\\Weapon_Gun.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T21:47:29.130334500Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Entity\\HitboxCollision\\DepositMachineHitbox.json",
+      "State": "Deleted",
+      "LastModificationTimestamp": "2026-02-02T01:48:01.178492800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\NPC\\Roles\\GenericRobot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-01-31T22:27:02.439189Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\RootInteractions\\Torp_Bot_Torp_Shoot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T21:06:33.783130100Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Interactions\\Torp_Bot_Torp_Shoot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T21:00:17.454706500Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Common\\Icons\\ItemsGenerated\\DepositMachine.png",
+      "State": "New",
+      "LastModificationTimestamp": "2026-02-02T01:53:40.462358900Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Interactions\\Torpedo_Explode.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T17:41:31.868439800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\NPC\\Roles\\Template\\Template_Robot.json",
+      "State": "New",
+      "LastModificationTimestamp": "2026-01-31T22:31:14.436587600Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Models\\Mech\\TorpedoRobot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T21:58:01.995326700Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Entity\\Effects\\TorpBot_FireTorpAnim.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T23:31:42.304790800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\ProjectileConfigs\\Torpedo.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T17:42:59.187028Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Models\\Mech\\ArmorRobot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-01-31T19:24:15.275276600Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\NPC\\Roles\\GenericBot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T16:31:08.172094Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\ProjectileConfigs\\Gun_Bullet.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T15:46:26.874485800Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\ProjectileConfigs\\MannCo_Bullet.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T17:46:49.697639300Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Interactions\\NPCs\\Robots\\Torp_Bot_Torp_Shoot.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-01T23:35:00.022002500Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    },
+    {
+      "Path": "Server\\Item\\Items\\Hypixel\\Minigames\\GunPvP\\Weapon_Assault_Rifle.json",
+      "State": "Changed",
+      "LastModificationTimestamp": "2026-02-02T15:33:30.918968500Z",
+      "LastModificationPlayerUuid": "ce4d6334-1dde-4f4a-8af0-5002d31e0dc2",
+      "LastModificationUsername": "AstroDwarf"
+    }
+  ]
+}

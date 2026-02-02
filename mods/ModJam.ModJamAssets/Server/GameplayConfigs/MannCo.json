@@ -20,34 +20,34 @@
   "Plugin": {
     "MannCo": {
       "PortalScrap": 100,
-      "RespawnScrap": 9,
+      "RespawnScrap": 3,
       "SpawnPoints": [
         {
           "Coordinates": {
-            "X": 50,
+            "X": -11,
             "Y": 80,
-            "Z": 50
+            "Z": 34
           }
         },
         {
           "Coordinates": {
-            "X": 12,
-            "Z": -20,
+            "X": -40,
+            "Z": 5,
             "Y": 80
           }
         },
         {
           "Coordinates": {
-            "X": -37,
+            "X": -11,
             "Y": 80,
-            "Z": 20
+            "Z": -24
           }
         },
         {
           "Coordinates": {
-            "X": -30,
+            "X": 18,
             "Y": 80,
-            "Z": -20
+            "Z": 5
           }
         }
       ],
@@ -63,15 +63,18 @@
         "ArmorBot",
         "TorpedoBot"
       ],
-      "WaveLength": 128000,
-      "WaveIntermissionLength": 30000,
+      "WaveLength": 120000,
+      "WaveIntermissionLength": 10000,
       "SpectatorArea": {
-        "X": 58,
-        "Y": 98,
-        "Z": -58
+        "X": -11,
+        "Y": 94,
+        "Z": 5
       },
       "WaveCount": 5,
-      "WaveDifficultyIncrease": 0.25
+      "WaveDifficultyIncrease": 0.25,
+      "ScrapQuotaRate": 10,
+      "StrongSpawnAmount": 5,
+      "WeakSpawnAmount": 8
     },
     "Portal": {
       "VoidEvent": {

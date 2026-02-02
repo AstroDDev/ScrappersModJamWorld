@@ -15,6 +15,9 @@
             },
             "Next": {
               "Type": "RemoveEntity"
+            },
+            "Failed": {
+              "Type": "RemoveEntity"
             }
           },
           "Effects": {
@@ -23,7 +26,7 @@
           "Failed": {
             "Type": "RemoveEntity",
             "Effects": {
-              "WorldSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death"
+              "WorldSoundEventId": "SFX_GunPvp_Assault_Rifle_Bullet_NoDamage"
             }
           }
         }

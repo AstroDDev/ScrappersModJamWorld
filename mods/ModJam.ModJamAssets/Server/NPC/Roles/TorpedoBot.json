@@ -48,7 +48,7 @@
       "Robot"
     ],
     "MaxSpeed": 10,
-    "MaxHealth": 124,
+    "MaxHealth": 150,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
     "NameTranslationKey": "Mortar Robot"
