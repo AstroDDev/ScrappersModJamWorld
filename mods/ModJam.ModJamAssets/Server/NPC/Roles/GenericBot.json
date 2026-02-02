@@ -1,9 +1,9 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Intelligent",
+  "Reference": "Template_Intelligent_Bot",
   "Modify": {
     "Appearance": "GenericRobot",
-    "DropList": "",
+    "DropList": "RobotAdvancedDrop",
     "Weapons": [],
     "Attack": "Root_NPC_Skeleton_Burnt_Praetorian_Attack",
     "NighttimeOffhandSlot": -1,
@@ -45,10 +45,10 @@
       "Self",
       "Robot"
     ],
-    "MaxSpeed": 10,
+    "MaxSpeed": 9,
     "MaxHealth": 124,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
-    "NameTranslationKey": "server.npcRoles.Outlander_Brute.name"
+    "NameTranslationKey": "Robot"
   }
 }
