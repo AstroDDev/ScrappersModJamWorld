@@ -46,7 +46,7 @@
       "Robot"
     ],
     "MaxSpeed": 9,
-    "MaxHealth": 124,
+    "MaxHealth": 120,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
     "NameTranslationKey": "Robot"

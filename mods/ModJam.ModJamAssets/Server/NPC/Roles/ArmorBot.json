@@ -47,7 +47,7 @@
     ],
     "MaxSpeed": 7,
     "MaxRotationSpeed": 60,
-    "MaxHealth": 124,
+    "MaxHealth": 50,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
     "NameTranslationKey": "Armored Robot"
