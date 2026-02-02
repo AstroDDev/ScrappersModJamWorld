@@ -5,13 +5,13 @@
     "Appearance": "TorpedoRobot",
     "DropList": "RobotAdvancedDrop",
     "Weapons": [],
-    "Attack": "Skeleton_Archer_Bow_Shoot",
+    "Attack": "Torp_Bot_Torp_Shoot",
     "CombatBackOffAfterAttack": false,
-    "AttackDistance": 50,
-    "CombatFleeIfTooCloseDistance": 15,
+    "AttackDistance": 33,
+    "CombatFleeIfTooCloseDistance": 10,
     "DesiredAttackDistanceRange": [
-      16,
-      49
+      10,
+      32
     ],
     "CombatBehaviorDistance": 50,
     "TargetRange": 50,
@@ -27,7 +27,6 @@
       "Robot"
     ],
     "AbsoluteDetectionRange": 500,
-
     "WanderRadius": 5,
     "ChanceToBeAlertedWhenReceivingCallForHelp": 100,
     "AlertedTime": [
