@@ -1,23 +1,35 @@
 Group {
   LayoutMode: Right;
   Anchor: (Top: 20, Height: 60);
-
-  Group #TimeLeft {
+  Group  {
+    Anchor: (Right: 20,Top:10,Height: 100);
     Background: "ContainerFullPatch.png";
-    Anchor: (Right: 20);
-    Padding: (Horizontal: 20, Vertical: 10);
-    LayoutMode: Left;
-
+    Padding: (Horizontal: 30, Vertical: 10);
+    LayoutMode: Top;
     Group {
-      Background: "RustyGear.png";
-      Anchor: (Width: 40, Height: 40, Right: 10);
-    }
+      LayoutMode: Left;
 
-    Label #GearLabel {
-      Style: (FontSize: 30, Alignment: Center);
-      Text: "0/0";
+      Group {
+        Background: "RustyGear.png";
+        Anchor: (Width: 40, Height: 40, Right: 10);
+      }
+
+      Label #GearLabel {
+        Style: (FontSize: 30, Alignment: Center);
+        Text: "0/0";
+      }
+
+    }
+    Group {
+        LayoutMode: Right;
+        Label #WaveLabel {
+            Style: (FontSize: 30, Alignment: Center);
+            Text: "";
+        }
+
     }
   }
+
 }
 Group #BannerArea {
     Anchor: (Top: 200);
