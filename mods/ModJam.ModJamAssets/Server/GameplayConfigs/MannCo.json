@@ -24,22 +24,36 @@
       "SpawnPoints": [
         {
           "Coordinates": {
-            "X": 12,
-            "Y": 84,
-            "Z": 12
+            "X": 50,
+            "Y": 80,
+            "Z": 50
           }
         },
         {
           "Coordinates": {
-            "X": -12,
-            "Z": -12,
-            "Y": 84
+            "X": 12,
+            "Z": -20,
+            "Y": 80
+          }
+        },
+        {
+          "Coordinates": {
+            "X": -37,
+            "Y": 80,
+            "Z": 20
+          }
+        },
+        {
+          "Coordinates": {
+            "X": -30,
+            "Y": 80,
+            "Z": -20
           }
         }
       ],
       "ReturnPortal": {
-        "Y": 84,
-        "X": 0,
+        "Y": 80,
+        "X": 12,
         "Z": 0
       },
       "WeakEnemies": [
@@ -49,8 +63,15 @@
         "ArmorBot",
         "TorpedoBot"
       ],
-      "WaveLength": 20000,
-      "WaveIntermissionLength": 10000
+      "WaveLength": 128000,
+      "WaveIntermissionLength": 30000,
+      "SpectatorArea": {
+        "X": 58,
+        "Y": 98,
+        "Z": -58
+      },
+      "WaveCount": 5,
+      "WaveDifficultyIncrease": 0.25
     },
     "Portal": {
       "VoidEvent": {
