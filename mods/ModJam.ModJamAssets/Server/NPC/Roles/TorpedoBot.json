@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Intelligent",
+  "Reference": "Template_Intelligent_Bot",
   "Modify": {
     "Appearance": "TorpedoRobot",
     "DropList": "RobotAdvancedDrop",
@@ -27,7 +27,8 @@
       "Robot"
     ],
     "AbsoluteDetectionRange": 60,
-    "WanderRadius": 10,
+    "AlertedRange": 60,
+    "WanderRadius": 20,
     "ChanceToBeAlertedWhenReceivingCallForHelp": 100,
     "AlertedTime": [
       0,
@@ -50,6 +51,6 @@
     "MaxHealth": 124,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
-    "NameTranslationKey": "server.npcRoles.Outlander_Brute.name"
+    "NameTranslationKey": "Mortar Robot"
   }
 }

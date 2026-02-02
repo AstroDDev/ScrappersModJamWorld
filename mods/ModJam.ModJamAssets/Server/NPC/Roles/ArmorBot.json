@@ -1,6 +1,6 @@
 {
   "Type": "Variant",
-  "Reference": "Template_Intelligent",
+  "Reference": "Template_Intelligent_Bot",
   "Modify": {
     "Appearance": "ArmorRobot",
     "DropList": "RobotAdvancedDrop",
@@ -45,10 +45,11 @@
       "Self",
       "Robot"
     ],
-    "MaxSpeed": 10,
+    "MaxSpeed": 7,
+    "MaxRotationSpeed": 60,
     "MaxHealth": 124,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
-    "NameTranslationKey": "server.npcRoles.Outlander_Brute.name"
+    "NameTranslationKey": "Armored Robot"
   }
 }
