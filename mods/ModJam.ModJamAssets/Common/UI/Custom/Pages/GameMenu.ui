@@ -1,0 +1,320 @@
+$C = "../Common.ui";
+$Portals = "Portals/Portals.ui";
+
+@GoldFrameShort = 4;
+@GoldFrameLong = 88;
+
+@LeftPaneWidth = 345;
+@LeftPaneHeight = 629;
+
+@RightPaneWidth = 640;
+@RightPaneHeight = 694;
+
+@PillStyle = LabelStyle(FontSize: 10, HorizontalAlignment: Center, FontName: "Secondary", RenderUppercase: true, TextColor: #ffffff);
+@TimeLimitStyle = LabelStyle(FontSize: 32, FontName: "Secondary");
+
+@SeparatorOnRight = Group {
+  LayoutMode: Top;
+  Padding: (Left: 24, Right: 20, Top: 4, Bottom: 4);
+  Anchor: (Width: @RightPaneWidth / 2);
+  $C.@PanelSeparatorFancy {}
+};
+
+$C.@PageOverlay {
+  LayoutMode: Middle;
+
+  Group {
+    LayoutMode: Center;
+
+    $C.@DecoratedContainer {
+      #Title {
+        $C.@Title {
+          @Text = "Scrappers";
+        }
+      }
+
+      #Content {
+        Padding: (Full: 9, Top: 8);
+
+        Group #Panes {
+          LayoutMode: Left;
+
+          Group #LeftPane {
+            Anchor: (Width: 431, Height: 716 + 30, Left: 15, Right: 15);
+
+            Group #Artwork {
+              Background: (TexturePath: "Portals/DefaultArtwork.png");
+              Anchor: (Width: 345, Height: 629);
+            }
+
+            Group #Vignette {
+              Background: (TexturePath: "Portals/PortalHighlight.png");
+              Visible: false;
+              Anchor: (Width: 345, Height: 629);
+            }
+
+            Group {
+              Background: (TexturePath: "Portals/RunicBorder.png");
+              Anchor: (Width: 431, Height: 716);
+            }
+
+            Group {
+              Anchor: (Width: 59, Height: 59, Top: 32);
+              Background: (TexturePath: "Portals/PortalCursebreakerLogo.png");
+            }
+          }
+
+          Group #RightPane {
+            Anchor: (Width: 431, Right: 15, Top: 15, Bottom: 15);
+            Background: (TexturePath: "../Common/ContainerBackgroundSecondary.png", Border: 5);
+            LayoutMode: Top;
+
+            Group #TopStuff {
+              @SectionTitleStyle = LabelStyle(FontSize: 18, TextColor: #778292, RenderBold: true, RenderUppercase: true);
+              @SectionSubtitleStyle = LabelStyle(FontSize: 16, TextColor: #a8b1be, RenderBold: true, RenderUppercase: true);
+              @SectionValueStyle = LabelStyle(FontSize: 15, TextColor: #dee2ef, Wrap: true);
+              @BulletPoint = Group {
+                LayoutMode: Left;
+
+                Group {
+                  Background: (TexturePath: "Portals/IconBullet.png");
+                  Anchor: (Width: 8, Height: 8, Top: 6, Right: 6, Left: 4);
+                }
+
+                Label {
+                  TextSpans: @Text;
+                  Style: @SectionValueStyle;
+                }
+              };
+
+              FlexWeight: 1;
+              LayoutMode: Top;
+
+              Group #Title {
+                LayoutMode: Top;
+
+                Label #Title0 {
+                  Anchor: (Top: 12, Bottom: 6);
+                  Style: (FontSize: 24, TextColor: #dee2ef, FontName: "Secondary", RenderUppercase: true, HorizontalAlignment: Center);
+                }
+
+                Group {
+                  Background: (TexturePath: "Portals/PortalTopDivider.png");
+                  Anchor: (Width: 369, Height: 7);
+                }
+              }
+
+              Group {
+                LayoutMode: Left;
+                Anchor: (Top: 8, Horizontal: 32);
+                Background: (Color: #0a1119(0.8));
+                Padding: (Horizontal: 8, Vertical: 5);
+              }
+
+              Group {
+                LayoutMode: Top;
+                Padding: (Vertical: 16, Horizontal: 32);
+
+                Label {
+                  Text: "Goal:";
+                  Anchor: (Bottom: 8);
+                  Style: @SectionTitleStyle;
+                }
+
+                Group #ExploTimeBullet {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label #ExplorationTimeText {
+                    Text: "Fill you quota by collecting scrap from these robots.";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group #BreachTimeBullet {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label #BreachTimeText {
+                    Text: "Dying loses Scrap from your quota. Look out!";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group #BreachTimeBullet1 {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label #BreachTimeText1 {
+                    Text: "Clear 5 waves to get a promotion (maybe).";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Top;
+                  Anchor: (Top: 15);
+
+                  Label {
+                    Text: "Bot Encyclopedia";
+                    Anchor: (Bottom: 4);
+                    Style: @SectionTitleStyle;
+                  }
+
+                  Group {
+                    LayoutMode: Top;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Top;
+                  Anchor: (Top: 15);
+
+                  Label {
+                    Text: "Brawler Bots";
+                    Anchor: (Bottom: 4);
+                    Style: @SectionSubtitleStyle;
+                  }
+
+                  Group {
+                    LayoutMode: Top;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label {
+                    Text: "Will run quickly at you, make sure to shoot them down quick. They also like to rush you down in groups.";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Top;
+                  Anchor: (Top: 15);
+
+                  Label {
+                    Text: "Big Bots";
+                    Anchor: (Bottom: 4);
+                    Style: @SectionSubtitleStyle;
+                  }
+
+                  Group {
+                    LayoutMode: Top;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label {
+                    Text: "These big guys have thick armor that makes it impossible to shoot them head on. Fortunately they have a self destruct button on the back you can shoot instead. Call a friend over to flank them.";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Top;
+                  Anchor: (Top: 15);
+
+                  Label {
+                    Text: "Mortar Bots";
+                    Anchor: (Bottom: 4);
+                    Style: @SectionSubtitleStyle;
+                  }
+
+                  Group {
+                    LayoutMode: Top;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label {
+                    Text: "These nuisances like to sit back and let good ol' carpet bombing do the talking. They don't do particularly well if you run straight at them though. Keep an eye on the sky to avoid stray shots.";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group #Tips {
+                  LayoutMode: Top;
+                  Anchor: (Top: 15);
+
+                  Label #HazardLevel {
+                    Text: "Current Hazard Level: 100%";
+                    Anchor: (Bottom: 4);
+                    Style: @SectionTitleStyle;
+                  }
+
+                  Group #TipsList {
+                    LayoutMode: Top;
+                    Anchor: (Left: 8);
+                  }
+                }
+              }
+
+              Group #Pills {
+                Anchor: (Top: 4, Left: 28);
+                LayoutMode: Left;
+              }
+
+              Group {
+                FlexWeight: 1;
+              }
+            }
+
+            Group #BottomStuff {
+              LayoutMode: Bottom;
+
+              Group #Summon {
+                LayoutMode: MiddleCenter;
+                Anchor: (Height: 126);
+                Background: (TexturePath: "Portals/OpenButtonBackground.png");
+
+                Group {
+                  LayoutMode: Top;
+
+                  $C.@TextButton #SummonButton {
+                    @Anchor = (Top: 8, MinWidth: 250, Bottom: 0);
+                    Text: "Start Game";
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+$C.@BackButton {}

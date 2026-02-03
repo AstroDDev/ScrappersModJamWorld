@@ -45,10 +45,7 @@
     "CombatRelativeTurnSpeed": 1,
     "DisableDamageGroups": [
       "Self",
-      "Robot",
-      "Enviroment",
-      "Enviromental",
-      "Fire"
+      "Robot"
     ],
     "MaxSpeed": 10,
     "MaxHealth": 150,
