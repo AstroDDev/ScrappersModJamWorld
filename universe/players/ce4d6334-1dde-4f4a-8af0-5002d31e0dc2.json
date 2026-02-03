@@ -3,24 +3,7 @@
     "Nameplate": {
       "Text": "AstroDwarf"
     },
-    "EffectController": {
-      "ActiveEntityEffects": [
-        {
-          "EntityEffectId": "HealthRegen_Buff_T1",
-          "InitialDuration": 45.0,
-          "RemainingDuration": 34.77218246459961,
-          "SinceLastDamage": 0.2279878556728363,
-          "HasBeenDamaged": false,
-          "SequentialHits": {
-            "Hits": 0
-          },
-          "Infinite": false,
-          "Debuff": false,
-          "StatusEffectIcon": "UI/StatusEffects/HealthRegen.png",
-          "Invulnerable": false
-        }
-      ]
-    },
+    "EffectController": {},
     "ObjectiveHistory": {
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
@@ -37,13 +20,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 12.66176986694336,
-        "Y": 81.0000991821289,
-        "Z": 1.9356577396392822
+        "X": 7.399524688720703,
+        "Y": 80.0,
+        "Z": 2.61653995513916
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": 3.2678468227386475,
+        "Yaw": -4.80752420425415,
         "Roll": 0.0
       }
     },
@@ -52,9 +35,9 @@
     },
     "Velocity": {
       "Velocity": {
-        "X": 0.0,
+        "X": -1.3543770101161552,
         "Y": 0.0,
-        "Z": 0.0
+        "Z": -0.12968276458319783
       }
     },
     "Player": {
@@ -163,11 +146,11 @@
           },
           "default": {
             "LastPosition": {
-              "X": 12.66176986694336,
-              "Y": 81.0000991821289,
-              "Z": 1.9356577396392822,
-              "Pitch": -0.20249083638191223,
-              "Yaw": 2.482142448425293,
+              "X": 7.399524688720703,
+              "Y": 80.0,
+              "Z": 2.61653995513916,
+              "Pitch": -0.357939213514328,
+              "Yaw": -4.889435768127441,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -286,6 +269,46 @@
         "DiscoveredZones": [],
         "DiscoveredInstances": [
           {
+            "$binary": "6GA87LWRTGiIU61MxDsRFw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "TQgqE5WfT5W72Q/4g7McQw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "bOjF7keuRTGKkFO0C2kkkA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "XZJ4pfUwQXKFinGmzqG++w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "ykNx1Q0zQJScWYCnQQYQ3w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "TjWnz6SqRM+sGo3i44oUhQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "QkPjNKRFTDScwu/8MYeLig==",
+            "$type": "04"
+          },
+          {
+            "$binary": "hLBH2StQQ9CSkByvtWhZkg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "qHcrbv7KT6ae1X38JkYExw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "A7jIfTbVSkaledCPRhH7FA==",
+            "$type": "04"
+          },
+          {
             "$binary": "Q+x1x2VmQs6MImR5755FHA==",
             "$type": "04"
           },
@@ -294,83 +317,67 @@
             "$type": "04"
           },
           {
-            "$binary": "A7jIfTbVSkaledCPRhH7FA==",
+            "$binary": "YK4JUYOvRI6R63lf8IbsWg==",
             "$type": "04"
           },
           {
-            "$binary": "qHcrbv7KT6ae1X38JkYExw==",
+            "$binary": "ioIuSTlCTYOWrSTf/pxCbQ==",
             "$type": "04"
           },
           {
-            "$binary": "hLBH2StQQ9CSkByvtWhZkg==",
+            "$binary": "YpSKHcYpRUib7VjNp3av/Q==",
             "$type": "04"
           },
           {
-            "$binary": "QkPjNKRFTDScwu/8MYeLig==",
+            "$binary": "5D6lqZRoQi+I4dJvKmXLxQ==",
             "$type": "04"
           },
           {
-            "$binary": "TjWnz6SqRM+sGo3i44oUhQ==",
+            "$binary": "NPPpMB/6RwuYY9SElSxU0w==",
             "$type": "04"
           },
           {
-            "$binary": "ykNx1Q0zQJScWYCnQQYQ3w==",
+            "$binary": "VTsxLfAQS1m3cNcdzVyLtw==",
             "$type": "04"
           },
           {
-            "$binary": "XZJ4pfUwQXKFinGmzqG++w==",
+            "$binary": "JPB3gJjmSt6t6EMZzjXpCg==",
             "$type": "04"
           },
           {
-            "$binary": "bOjF7keuRTGKkFO0C2kkkA==",
+            "$binary": "v1EYC4tOS0Weo2d2zYouFA==",
             "$type": "04"
           },
           {
-            "$binary": "TQgqE5WfT5W72Q/4g7McQw==",
+            "$binary": "kbGUBuLcTU+9eHOX7lYNmQ==",
             "$type": "04"
           },
           {
-            "$binary": "6GA87LWRTGiIU61MxDsRFw==",
+            "$binary": "y/FDNk4DQ2qJIvRq7p7bkw==",
             "$type": "04"
           },
           {
-            "$binary": "IOCCs9nPSH+Ze4XqGFNARA==",
+            "$binary": "s1cVRe/yTBiJin3/ikzh4Q==",
             "$type": "04"
           },
           {
-            "$binary": "RHvpOU8jTXWvS2ODF1eybQ==",
+            "$binary": "2cqXEdNwR/SLKO0lg+TqkA==",
             "$type": "04"
           },
           {
-            "$binary": "1Hg/Zv9sRAi8VGB9B37atg==",
+            "$binary": "bTJ1g3DISXOuncoIuxYKiA==",
             "$type": "04"
           },
           {
-            "$binary": "RfdBti7MR/+i0g6xawgH0A==",
+            "$binary": "oCWwBPgDTDeSbjNBw+loXA==",
             "$type": "04"
           },
           {
-            "$binary": "tPM6frAwQeqAsLDNhz7JRA==",
+            "$binary": "0nI7/t6PR/6KWflr7fqSwQ==",
             "$type": "04"
           },
           {
-            "$binary": "Va554LJtQHehcPIVcCgpDw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "A+xmMf0dTlienaEK3eYq/g==",
-            "$type": "04"
-          },
-          {
-            "$binary": "lxmmn1MfRBOBxMB1VclC6w==",
-            "$type": "04"
-          },
-          {
-            "$binary": "kG0i4/tER1C7hgYV4XPEdQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "deTPN64jQmyjnYD1LPUYSg==",
+            "$binary": "ejzZ29OITv+m7MDgojNzjg==",
             "$type": "04"
           },
           {
@@ -382,67 +389,43 @@
             "$type": "04"
           },
           {
-            "$binary": "ejzZ29OITv+m7MDgojNzjg==",
+            "$binary": "deTPN64jQmyjnYD1LPUYSg==",
             "$type": "04"
           },
           {
-            "$binary": "0nI7/t6PR/6KWflr7fqSwQ==",
+            "$binary": "kG0i4/tER1C7hgYV4XPEdQ==",
             "$type": "04"
           },
           {
-            "$binary": "oCWwBPgDTDeSbjNBw+loXA==",
+            "$binary": "lxmmn1MfRBOBxMB1VclC6w==",
             "$type": "04"
           },
           {
-            "$binary": "bTJ1g3DISXOuncoIuxYKiA==",
+            "$binary": "A+xmMf0dTlienaEK3eYq/g==",
             "$type": "04"
           },
           {
-            "$binary": "2cqXEdNwR/SLKO0lg+TqkA==",
+            "$binary": "Va554LJtQHehcPIVcCgpDw==",
             "$type": "04"
           },
           {
-            "$binary": "s1cVRe/yTBiJin3/ikzh4Q==",
+            "$binary": "tPM6frAwQeqAsLDNhz7JRA==",
             "$type": "04"
           },
           {
-            "$binary": "y/FDNk4DQ2qJIvRq7p7bkw==",
+            "$binary": "RfdBti7MR/+i0g6xawgH0A==",
             "$type": "04"
           },
           {
-            "$binary": "kbGUBuLcTU+9eHOX7lYNmQ==",
+            "$binary": "1Hg/Zv9sRAi8VGB9B37atg==",
             "$type": "04"
           },
           {
-            "$binary": "v1EYC4tOS0Weo2d2zYouFA==",
+            "$binary": "RHvpOU8jTXWvS2ODF1eybQ==",
             "$type": "04"
           },
           {
-            "$binary": "JPB3gJjmSt6t6EMZzjXpCg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "VTsxLfAQS1m3cNcdzVyLtw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "NPPpMB/6RwuYY9SElSxU0w==",
-            "$type": "04"
-          },
-          {
-            "$binary": "5D6lqZRoQi+I4dJvKmXLxQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "YpSKHcYpRUib7VjNp3av/Q==",
-            "$type": "04"
-          },
-          {
-            "$binary": "ioIuSTlCTYOWrSTf/pxCbQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "YK4JUYOvRI6R63lf8IbsWg==",
+            "$binary": "IOCCs9nPSH+Ze4XqGFNARA==",
             "$type": "04"
           }
         ],
@@ -497,7 +480,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 82.0
+          "Value": 100.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -513,7 +496,7 @@
         },
         "Stamina": {
           "Id": "Stamina",
-          "Value": 10.0
+          "Value": 8.099992752075195
         },
         "Ammo": {
           "Id": "Ammo",
@@ -533,7 +516,7 @@
         },
         "StaminaRegenDelay": {
           "Id": "StaminaRegenDelay",
-          "Value": 0.0
+          "Value": -0.75
         },
         "MagicCharges": {
           "Id": "MagicCharges",
@@ -543,8 +526,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.20249083638191223,
-        "Yaw": 2.482142448425293,
+        "Pitch": -0.357939213514328,
+        "Yaw": -4.889435768127441,
         "Roll": 0.0
       }
     }
