@@ -35,11 +35,27 @@
       "Use": {
         "Interactions": [
           {
-            "Type": "OpenGameMenu"
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "OpenGameMenu"
+              },
+              {
+                "Type": "ChangeBlock",
+                "Changes": {
+                  "PayPhone": "PayPhoneAnswered"
+                },
+                "WorldSoundEventId": "Phone_Pick_Up"
+              }
+            ]
           }
         ]
       }
-    }
+    },
+    "Looping": true,
+    "CustomModelAnimation": "Items/Blocks/Phone_Ring.blockyanim",
+    "AmbientSoundEventId": "Phone_Ring",
+    "InteractionSoundEventId": "Phone_Pick_Up"
   },
   "Tags": {
     "Type": [
@@ -50,5 +66,26 @@
     ]
   },
   "Scale": 0.6,
-  "ItemSoundSetId": "ISS_Blocks_Stone"
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "State": {
+    "Answered": {
+      "BlockType": {
+        "CustomModel": "Items/Blocks/PayPhone.blockymodel",
+        "CustomModelTexture": [
+          {
+            "Texture": "Items/Blocks/PayPhone_Tex.png"
+          }
+        ],
+        "Interactions": {
+          "Use": {
+            "Interactions": [
+              {
+                "Type": "OpenGameMenu"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }
