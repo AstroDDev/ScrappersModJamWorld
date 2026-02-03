@@ -1,0 +1,65 @@
+{
+  "PlayerAnimationsId": "Block",
+  "Icon": "Icons/ItemsGenerated/PayPhone.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      22.5,
+      49,
+      22.5
+    ],
+    "Translation": [
+      7,
+      -18
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Human"
+    ]
+  },
+  "Scale": 0.6,
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "BlockType": {
+    "BlockParticleSetId": "Wood",
+    "BlockSoundSetId": "Wood",
+    "CustomModel": "Items/Blocks/PayPhone.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Blocks/PayPhone_Tex.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "HitboxType": "PayPhoneHitbox",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "VariantRotation": "NESW",
+    "ParticleColor": "#3a2014",
+    "InteractionHitboxType": "PayPhoneHitbox",
+    "InteractionHint": "MannCo.items.blocks.PayPhone.interactionhint",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "Serial",
+            "Interactions": [
+              {
+                "Type": "OpenGameMenu"
+              },
+              {
+                "Type": "Simple",
+                "Effects": {
+                  "WorldSoundEventId": "Phone_Pick_Up"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
