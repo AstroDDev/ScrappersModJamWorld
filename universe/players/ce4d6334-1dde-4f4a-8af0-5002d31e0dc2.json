@@ -8,8 +8,8 @@
         {
           "EntityEffectId": "HealthRegen_Buff_T1",
           "InitialDuration": 45.0,
-          "RemainingDuration": 16.136503219604492,
-          "SinceLastDamage": 0.8639850616455078,
+          "RemainingDuration": 34.77218246459961,
+          "SinceLastDamage": 0.2279878556728363,
           "HasBeenDamaged": false,
           "SequentialHits": {
             "Hits": 0
@@ -25,7 +25,6 @@
       "ObjectiveHistory": {},
       "ObjectiveLineHistory": {}
     },
-    "RespondToHit": {},
     "DisplayName": {
       "DisplayName": {
         "RawText": "AstroDwarf",
@@ -38,13 +37,13 @@
     "UIComponentList": {},
     "Transform": {
       "Position": {
-        "X": 13.296967506408691,
+        "X": 12.66176986694336,
         "Y": 81.0000991821289,
-        "Z": 2.275559902191162
+        "Z": 1.9356577396392822
       },
       "Rotation": {
         "Pitch": 0.0,
-        "Yaw": -1.5412286520004272,
+        "Yaw": 3.2678468227386475,
         "Roll": 0.0
       }
     },
@@ -69,260 +68,7 @@
         "Storage": {
           "Id": "Simple",
           "Capacity": 36,
-          "Items": {
-            "0": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "33": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "29": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "25": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "12": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "13": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "8": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "9": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "30": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "28": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "24": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "23": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "26": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "16": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "17": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "19": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "18": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "21": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "22": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "20": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "35": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "27": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "15": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "14": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "10": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "11": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "31": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "32": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "34": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            }
-          }
+          "Items": {}
         },
         "Armor": {
           "Id": "Simple",
@@ -332,82 +78,17 @@
         "HotBar": {
           "Id": "Simple",
           "Capacity": 9,
-          "Items": {
-            "0": {
-              "Id": "MannCoRifle",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "2": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "6": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "4": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "1": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "3": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "7": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            },
-            "5": {
-              "Id": "BlankItem",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            }
-          }
+          "Items": {}
         },
         "Utility": {
           "Id": "Simple",
           "Capacity": 4,
-          "Items": {
-            "0": {
-              "Id": "Weapon_Shield_Iron",
-              "Quantity": 1,
-              "Durability": 0.0,
-              "MaxDurability": 0.0,
-              "OverrideDroppedItemAnimation": false
-            }
-          }
+          "Items": {}
         },
         "Backpack": {
           "Id": "Empty"
         },
-        "ActiveHotbarSlot": 1,
+        "ActiveHotbarSlot": 0,
         "Tool": {
           "Id": "Simple",
           "Capacity": 23,
@@ -467,11 +148,11 @@
         "PerWorldData": {
           "MannCoBuildingWorld": {
             "LastPosition": {
-              "X": -14.997298240661621,
-              "Y": 80.0,
-              "Z": 15.023557662963867,
-              "Pitch": -0.21969036757946014,
-              "Yaw": -2.462948799133301,
+              "X": -11.810928344726562,
+              "Y": 81.0,
+              "Z": 9.390857696533203,
+              "Pitch": -0.2743096947669983,
+              "Yaw": -4.927191257476807,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -482,11 +163,11 @@
           },
           "default": {
             "LastPosition": {
-              "X": 15.351119995117188,
+              "X": 12.66176986694336,
               "Y": 81.0000991821289,
-              "Z": 2.966890811920166,
-              "Pitch": -0.1286206692457199,
-              "Yaw": -1.2225313186645508,
+              "Z": 1.9356577396392822,
+              "Pitch": -0.20249083638191223,
+              "Yaw": 2.482142448425293,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -497,11 +178,11 @@
           },
           "MannCoWorld": {
             "LastPosition": {
-              "X": -9.761839866638184,
-              "Y": 82.0,
-              "Z": 2.970735549926758,
-              "Pitch": -0.31905433535575867,
-              "Yaw": -2.404085636138916,
+              "X": -13.908459663391113,
+              "Y": 83.16094207763672,
+              "Z": 3.093200206756592,
+              "Pitch": -0.4536510705947876,
+              "Yaw": -3.2380762100219727,
               "Roll": 0.0
             },
             "LastMovementStates": {
@@ -510,11 +191,11 @@
             "FirstSpawn": false,
             "DeathPositions": [
               {
-                "MarkerId": "death-marker-39096a23-a6be-451a-acd5-81ed27e98492",
+                "MarkerId": "death-marker-1fa435e1-c61b-4927-b625-58e5dd89e650",
                 "Transform": {
-                  "X": -5.389476299285889,
-                  "Y": 80.0,
-                  "Z": 36.75346374511719,
+                  "X": -16.32509994506836,
+                  "Y": 78.15110778808594,
+                  "Z": -18.67490005493164,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
@@ -522,11 +203,11 @@
                 "Day": 0
               },
               {
-                "MarkerId": "death-marker-3c16835c-444c-4196-9527-0e5d83bac946",
+                "MarkerId": "death-marker-fc5f9907-8bb3-4de0-bc7d-43db2ad54ce8",
                 "Transform": {
-                  "X": 24.266450881958008,
-                  "Y": 80.0,
-                  "Z": 4.079988956451416,
+                  "X": -20.438920974731445,
+                  "Y": 77.0,
+                  "Z": -14.32509994506836,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
@@ -534,11 +215,11 @@
                 "Day": 0
               },
               {
-                "MarkerId": "death-marker-e7282098-7672-48d8-9560-6c394dc4ede6",
+                "MarkerId": "death-marker-f9799d94-9021-4eca-a5f3-579c7e078c49",
                 "Transform": {
-                  "X": -5.995882511138916,
-                  "Y": 80.0,
-                  "Z": 19.234386444091797,
+                  "X": -17.32509994506836,
+                  "Y": 77.0,
+                  "Z": -19.646825790405273,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
@@ -546,11 +227,11 @@
                 "Day": 0
               },
               {
-                "MarkerId": "death-marker-7223bdec-0b4d-47fb-8b60-ec1c9dab56e5",
+                "MarkerId": "death-marker-9b23111b-cbc4-43c1-9d2d-87fa833d837d",
                 "Transform": {
-                  "X": 7.808523178100586,
-                  "Y": 80.0,
-                  "Z": -28.37533950805664,
+                  "X": -10.625151634216309,
+                  "Y": 80.88003540039062,
+                  "Z": 18.78953742980957,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
@@ -558,11 +239,11 @@
                 "Day": 0
               },
               {
-                "MarkerId": "death-marker-26950374-6a82-429d-ba67-c91148b21238",
+                "MarkerId": "death-marker-4f921aed-e5c4-4440-9ed6-86af9637b61e",
                 "Transform": {
-                  "X": -5.1428914070129395,
-                  "Y": 80.64111328125,
-                  "Z": 4.673422813415527,
+                  "X": 3.051764965057373,
+                  "Y": 80.0,
+                  "Z": -5.014693260192871,
                   "Pitch": 0.0,
                   "Yaw": 0.0,
                   "Roll": 0.0
@@ -605,71 +286,11 @@
         "DiscoveredZones": [],
         "DiscoveredInstances": [
           {
-            "$binary": "Va554LJtQHehcPIVcCgpDw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "TjWnz6SqRM+sGo3i44oUhQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "YK4JUYOvRI6R63lf8IbsWg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "zvI3UCvqRsGUYtQ5vRYKLQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "JPB3gJjmSt6t6EMZzjXpCg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "v1EYC4tOS0Weo2d2zYouFA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "QkPjNKRFTDScwu/8MYeLig==",
-            "$type": "04"
-          },
-          {
-            "$binary": "kG0i4/tER1C7hgYV4XPEdQ==",
-            "$type": "04"
-          },
-          {
             "$binary": "Q+x1x2VmQs6MImR5755FHA==",
             "$type": "04"
           },
           {
-            "$binary": "xUq5gbr9SVW04gHb06Nuqw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "deTPN64jQmyjnYD1LPUYSg==",
-            "$type": "04"
-          },
-          {
-            "$binary": "kbGUBuLcTU+9eHOX7lYNmQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "VTsxLfAQS1m3cNcdzVyLtw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "oCWwBPgDTDeSbjNBw+loXA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "2cqXEdNwR/SLKO0lg+TqkA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "lxmmn1MfRBOBxMB1VclC6w==",
-            "$type": "04"
-          },
-          {
-            "$binary": "5D6lqZRoQi+I4dJvKmXLxQ==",
+            "$binary": "PfywEaXhQIqxNRb5FIYs/g==",
             "$type": "04"
           },
           {
@@ -677,27 +298,7 @@
             "$type": "04"
           },
           {
-            "$binary": "6GA87LWRTGiIU61MxDsRFw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "A+xmMf0dTlienaEK3eYq/g==",
-            "$type": "04"
-          },
-          {
             "$binary": "qHcrbv7KT6ae1X38JkYExw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "tPM6frAwQeqAsLDNhz7JRA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "TQgqE5WfT5W72Q/4g7McQw==",
-            "$type": "04"
-          },
-          {
-            "$binary": "y/FDNk4DQ2qJIvRq7p7bkw==",
             "$type": "04"
           },
           {
@@ -705,31 +306,11 @@
             "$type": "04"
           },
           {
-            "$binary": "IOCCs9nPSH+Ze4XqGFNARA==",
+            "$binary": "QkPjNKRFTDScwu/8MYeLig==",
             "$type": "04"
           },
           {
-            "$binary": "s1cVRe/yTBiJin3/ikzh4Q==",
-            "$type": "04"
-          },
-          {
-            "$binary": "RHvpOU8jTXWvS2ODF1eybQ==",
-            "$type": "04"
-          },
-          {
-            "$binary": "bTJ1g3DISXOuncoIuxYKiA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "bOjF7keuRTGKkFO0C2kkkA==",
-            "$type": "04"
-          },
-          {
-            "$binary": "YpSKHcYpRUib7VjNp3av/Q==",
-            "$type": "04"
-          },
-          {
-            "$binary": "0nI7/t6PR/6KWflr7fqSwQ==",
+            "$binary": "TjWnz6SqRM+sGo3i44oUhQ==",
             "$type": "04"
           },
           {
@@ -738,6 +319,130 @@
           },
           {
             "$binary": "XZJ4pfUwQXKFinGmzqG++w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "bOjF7keuRTGKkFO0C2kkkA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "TQgqE5WfT5W72Q/4g7McQw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "6GA87LWRTGiIU61MxDsRFw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "IOCCs9nPSH+Ze4XqGFNARA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "RHvpOU8jTXWvS2ODF1eybQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "1Hg/Zv9sRAi8VGB9B37atg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "RfdBti7MR/+i0g6xawgH0A==",
+            "$type": "04"
+          },
+          {
+            "$binary": "tPM6frAwQeqAsLDNhz7JRA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "Va554LJtQHehcPIVcCgpDw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "A+xmMf0dTlienaEK3eYq/g==",
+            "$type": "04"
+          },
+          {
+            "$binary": "lxmmn1MfRBOBxMB1VclC6w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "kG0i4/tER1C7hgYV4XPEdQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "deTPN64jQmyjnYD1LPUYSg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "xUq5gbr9SVW04gHb06Nuqw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "zvI3UCvqRsGUYtQ5vRYKLQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "ejzZ29OITv+m7MDgojNzjg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "0nI7/t6PR/6KWflr7fqSwQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "oCWwBPgDTDeSbjNBw+loXA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "bTJ1g3DISXOuncoIuxYKiA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "2cqXEdNwR/SLKO0lg+TqkA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "s1cVRe/yTBiJin3/ikzh4Q==",
+            "$type": "04"
+          },
+          {
+            "$binary": "y/FDNk4DQ2qJIvRq7p7bkw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "kbGUBuLcTU+9eHOX7lYNmQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "v1EYC4tOS0Weo2d2zYouFA==",
+            "$type": "04"
+          },
+          {
+            "$binary": "JPB3gJjmSt6t6EMZzjXpCg==",
+            "$type": "04"
+          },
+          {
+            "$binary": "VTsxLfAQS1m3cNcdzVyLtw==",
+            "$type": "04"
+          },
+          {
+            "$binary": "NPPpMB/6RwuYY9SElSxU0w==",
+            "$type": "04"
+          },
+          {
+            "$binary": "5D6lqZRoQi+I4dJvKmXLxQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "YpSKHcYpRUib7VjNp3av/Q==",
+            "$type": "04"
+          },
+          {
+            "$binary": "ioIuSTlCTYOWrSTf/pxCbQ==",
+            "$type": "04"
+          },
+          {
+            "$binary": "YK4JUYOvRI6R63lf8IbsWg==",
             "$type": "04"
           }
         ],
@@ -750,64 +455,7 @@
           {
             "Id": "Simple",
             "Capacity": 9,
-            "Items": {
-              "0": {
-                "Id": "MannCoRifle",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "1": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "3": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "2": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "7": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "6": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "4": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              },
-              "5": {
-                "Id": "BlankItem",
-                "Quantity": 1,
-                "Durability": 0.0,
-                "MaxDurability": 0.0,
-                "OverrideDroppedItemAnimation": false
-              }
-            }
+            "Items": {}
           },
           null,
           null,
@@ -821,9 +469,8 @@
         ],
         "CurrentHotbar": 0
       },
-      "GameMode": "Creative"
+      "GameMode": "Adventure"
     },
-    "Invulnerable": {},
     "HitboxCollision": {
       "HitboxCollisionConfigIndex": 1
     },
@@ -850,7 +497,7 @@
         },
         "Health": {
           "Id": "Health",
-          "Value": 100.0
+          "Value": 82.0
         },
         "GlidingActive": {
           "Id": "GlidingActive",
@@ -896,8 +543,8 @@
     },
     "HeadRotation": {
       "Rotation": {
-        "Pitch": -0.006736979819834232,
-        "Yaw": -1.6503759622573853,
+        "Pitch": -0.20249083638191223,
+        "Yaw": 2.482142448425293,
         "Roll": 0.0
       }
     }

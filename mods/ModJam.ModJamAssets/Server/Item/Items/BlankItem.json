@@ -3,5 +3,6 @@
   "TranslationProperties": {
     "Name": " "
   },
-  "Icon": "Icons/Items/blank.png"
+  "Icon": "Icons/Items/blank.png",
+  "Weapon": {}
 }

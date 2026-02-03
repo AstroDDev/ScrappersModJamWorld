@@ -72,7 +72,7 @@
         "Z": 5
       },
       "WaveCount": 5,
-      "WaveDifficultyIncrease": 0.25,
+      "WaveDifficultyIncrease": 0.1,
       "ScrapQuotaRate": 10,
       "StrongSpawnAmount": 5,
       "WeakSpawnAmount": 8
