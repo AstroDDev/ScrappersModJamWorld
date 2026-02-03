@@ -1,0 +1,62 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent_Bot",
+  "Modify": {
+    "Appearance": "GoldRobot",
+    "DropList": "RobotGoldDrop",
+    "Weapons": [
+      "Weapon_Assault_Rifle"
+    ],
+    "Attack": "Gold_Bot_Shoot",
+    "CombatBackOffAfterAttack": false,
+    "AttackDistance": 33,
+    "AttackPauseRange": [
+      0,
+      0
+    ],
+    "CombatFleeIfTooCloseDistance": 3,
+    "DesiredAttackDistanceRange": [
+      5,
+      12
+    ],
+    "CombatBehaviorDistance": 50,
+    "TargetRange": 50,
+    "LeashMinPlayerDistance": 18,
+    "NighttimeOffhandSlot": -1,
+    "WakingPeriod": [
+      0,
+      24
+    ],
+    "LeashDistance": 100,
+    "HardLeashDistance": 150,
+    "CombatMessageTargetGroups": [
+      "Robot"
+    ],
+    "AbsoluteDetectionRange": 60,
+    "AlertedRange": 60,
+    "WanderRadius": 20,
+    "ChanceToBeAlertedWhenReceivingCallForHelp": 100,
+    "AlertedTime": [
+      0,
+      0
+    ],
+    "ChaseRelativeSpeed": 1,
+    "ViewSector": 360,
+    "CombatMovingRelativeSpeed": 1,
+    "HearingRange": 0.1,
+    "SearchTimeRange": [
+      0,
+      0
+    ],
+    "CombatRelativeTurnSpeed": 1,
+    "DisableDamageGroups": [
+      "Self",
+      "Robot"
+    ],
+    "MaxSpeed": 10,
+    "MaxHealth": 200,
+    "IsMemory": true,
+    "MemoriesCategory": "Robot",
+    "NameTranslationKey": "Gold Robot"
+  }
+}
