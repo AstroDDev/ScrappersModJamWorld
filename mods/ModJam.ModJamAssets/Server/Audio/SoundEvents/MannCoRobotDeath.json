@@ -1,0 +1,20 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/MannCoRobotDeath1.ogg",
+        "Sounds/MannCoRobotDeath2.ogg",
+        "Sounds/MannCoRobotDeath3.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": -1.968,
+        "MaxPitch": 6.192,
+        "MinVolume": -0.9151498112135024,
+        "MaxVolume": 0
+      },
+      "Volume": 4.0
+    }
+  ],
+  "Parent": "SFX_Attn_Moderate",
+  "PreventSoundInterruption": false
+}

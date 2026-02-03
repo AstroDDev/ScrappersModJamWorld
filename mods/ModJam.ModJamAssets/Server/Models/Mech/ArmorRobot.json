@@ -746,12 +746,12 @@
         {
           "Animation": "Characters/Animations/Damage/Default/Death.blockyanim",
           "Looping": false,
-          "SoundEventId": "SFX_Player_Death"
+          "SoundEventId": "MannCoRobotDeath"
         },
         {
           "Animation": "Characters/Animations/Damage/Default/Death2.blockyanim",
           "Looping": false,
-          "SoundEventId": "SFX_Player_Death"
+          "SoundEventId": "MannCoRobotDeath"
         }
       ]
     },
