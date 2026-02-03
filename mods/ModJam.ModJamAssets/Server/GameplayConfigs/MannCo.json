@@ -56,16 +56,15 @@
         "X": 12,
         "Z": 0
       },
-      "WeakEnemies": [
-        "GenericBot"
-      ],
       "StrongEnemies": [
         "ArmorBot",
         "TorpedoBot",
-        "TorpedoBot"
+        "TorpedoBot",
+        "GenericBot",
+        "GenericBot"
       ],
       "WaveLength": 90000,
-      "WaveIntermissionLength": 10000,
+      "WaveIntermissionLength": 15000,
       "SpectatorArea": {
         "X": -11,
         "Y": 94,
@@ -73,9 +72,12 @@
       },
       "WaveCount": 5,
       "WaveDifficultyIncrease": 0.1,
-      "ScrapQuotaRate": 10,
-      "StrongSpawnAmount": 5,
-      "WeakSpawnAmount": 8
+      "ScrapQuotaRate": 5,
+      "StrongSpawnAmount": 8,
+      "WeakSpawnAmount": 8,
+      "WeakEnemies": [
+        "BabyBot"
+      ]
     },
     "Portal": {
       "VoidEvent": {

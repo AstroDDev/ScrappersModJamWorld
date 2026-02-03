@@ -47,7 +47,7 @@
       "Self",
       "Robot"
     ],
-    "MaxSpeed": 10,
+    "MaxSpeed": 7.5,
     "MaxHealth": 150,
     "IsMemory": true,
     "MemoriesCategory": "Robot",
