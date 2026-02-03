@@ -1,0 +1,17 @@
+{
+  "Layers": [
+    {
+      "Files": [
+        "Sounds/MannCoCollector.ogg"
+      ],
+      "RandomSettings": {
+        "MinPitch": 0,
+        "MaxPitch": 2.064,
+        "MinVolume": -0.9151498112135024,
+        "MaxVolume": 0
+      },
+      "Volume": 4.0
+    }
+  ],
+  "Parent": "SFX_Attn_Loud"
+}

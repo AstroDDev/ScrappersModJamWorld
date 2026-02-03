@@ -48,7 +48,17 @@
         }
       ]
     },
-    "Secondary": "Gun_Attack"
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "Chaining",
+          "ChainingAllowance": 1.25,
+          "Next": [
+            "MannCoGunSwing"
+          ]
+        }
+      ]
+    }
   },
   "InteractionVars": {
     "Gun_Swing_Left_Effect": {

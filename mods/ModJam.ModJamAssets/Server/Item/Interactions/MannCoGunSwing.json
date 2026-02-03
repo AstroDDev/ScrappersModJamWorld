@@ -1,0 +1,94 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ItemAnimationId": "GuardBash"
+  },
+  "$Comment": "Prepare Delay",
+  "RunTime": 0.167,
+  "Next": {
+    "Type": "Parallel",
+    "$Comment": "Make sure this parallel interaction is needed and can't be optimized away",
+    "Interactions": [
+      {
+        "Interactions": [
+          {
+            "Type": "Selector",
+            "$Comment": "Length of Combat",
+            "RunTime": 0.083,
+            "Selector": {
+              "Id": "Horizontal",
+              "Direction": "ToLeft",
+              "TestLineOfSight": true,
+              "ExtendTop": 0.5,
+              "ExtendBottom": 0.5,
+              "StartDistance": 0.1,
+              "EndDistance": 2.5,
+              "Length": 30,
+              "RollOffset": 0,
+              "YawStartOffset": -15
+            },
+            "HitBlock": {
+              "Interactions": [
+                "Block_Break_Adventure"
+              ]
+            },
+            "HitEntity": {
+              "Interactions": [
+                {
+                  "Type": "Replace",
+                  "DefaultValue": {
+                    "Interactions": [
+                      {
+                        "Type": "DamageEntity",
+                        "DamageEffects": {
+                          "WorldParticles": [
+                            {
+                              "SystemId": "Impact_Blade_01",
+                              "Scale": 0.8
+                            }
+                          ],
+                          "WorldSoundEventId": "SFX_Unarmed_Impact",
+                          "Knockback": {
+                            "Type": "Directional",
+                            "Force": 6,
+                            "RelativeX": 0,
+                            "RelativeZ": -5,
+                            "VelocityY": 5
+                          }
+                        },
+                        "DamageCalculator": {
+                          "BaseDamage": {
+                            "Physical": 0
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "Var": "MannCoGunSwing"
+                }
+              ]
+            },
+            "Next": {
+              "Type": "Simple",
+              "$Comment": "Pad the interaction length",
+              "RunTime": 0.334
+            }
+          }
+        ]
+      },
+      {
+        "Interactions": [
+          {
+            "Type": "Replace",
+            "DefaultValue": {
+              "Interactions": [
+                "Gun_Swing_Left_Effect"
+              ]
+            },
+            "Var": "Gun_Swing_Left_Effect"
+          }
+        ]
+      }
+    ]
+  }
+}
