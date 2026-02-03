@@ -260,7 +260,36 @@ $C.@PageOverlay {
                   }
 
                   Label {
-                    Text: "These nuisances like to sit back and let good ol' carpet bombing do the talking. They don't do particularly well if you run straight at them though. Keep an eye on the sky to avoid stray shots.";
+                    Text: "These guys like to stay away from danger and lob some shots in your direction. Keep an eye on the sky to avoid stray shots.";
+                    Style: @SectionValueStyle;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Top;
+                  Anchor: (Top: 15);
+
+                  Label {
+                    Text: "Baby Bots";
+                    Anchor: (Bottom: 4);
+                    Style: @SectionSubtitleStyle;
+                  }
+
+                  Group {
+                    LayoutMode: Top;
+                  }
+                }
+
+                Group {
+                  LayoutMode: Left;
+
+                  Group {
+                    Background: (TexturePath: "Portals/IconBullet.png");
+                    Anchor: (Width: 8, Height: 8, Top: 6, Right: 8, Left: 8);
+                  }
+
+                  Label {
+                    Text: "These little guys like to spawn in groups and gang up on you. Fortunately their health pool is a big as they are.";
                     Style: @SectionValueStyle;
                   }
                 }
